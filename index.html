@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova Imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" id="endereco-imagem-nova" required placeholder="Url da imagem"/>
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="btn-cancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="./media/animal-7451969_1920.jpg" alt="foto de um suricata">
+            <div class="overlay-imagem-link">
+                <a href="./media/animal-7451969_1920.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real 
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./media/cranes-7445073_1920.jpg" alt="dois gansos em pleno voô">
+            <div class="overlay-imagem-link">
+                <a href="./media/cranes-7445073_1920.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real 
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./media/lake-7443622_1920.jpg" alt="imagem de uma cais e ao fundo um lago">
+            <div class="overlay-imagem-link">
+                <a href="./media/lake-7443622_1920.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real 
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./media/rapeseed-6599950_1920.jpg" alt="imagem de um campo de colzas">
+            <div class="overlay-imagem-link">
+                <a href="./media/rapeseed-6599950_1920.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real 
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./media/swan-7440578_1920.jpg" alt="pessoa dando comida para o ganso">
+            <div class="overlay-imagem-link">
+                <a href="./media/swan-7440578_1920.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real 
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
